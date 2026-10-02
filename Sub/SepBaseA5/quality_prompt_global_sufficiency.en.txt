@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the global sufficiency of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Global Sufficiency: Does the argument raise opposing views and respond to them adequately (including implicit responses)?
+
+Respond with a JSON object only.

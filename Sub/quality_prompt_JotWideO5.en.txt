@@ -27,14 +27,6 @@ How would you rate the sufficiency of the premises (Local Sufficiency) of the au
 • 1 (Very low)
 Local Sufficiency: The premises of an argument should be seen as sufficient if, together, they provide enough support to make it rational to draw the argument's conclusion. If you identify more than one conclusion in the comment, try to adequately weight the sufficiency of the premises for each conclusion when judging about their "aggregate" sufficiency--unless there are particular premises or conclusions that dominate your view of the author's argumentation. Notice that you may see premises as sufficient even though you do not personally accept all of them, i.e., sufficiency does not presuppose acceptability.
 
-How would you rate the cogency of the author's argument?
-• 5 (Very high)
-• 4 (High)
-• 3 (Medium)
-• 2 (Low)
-• 1 (Very low)
-Cogency: An argument should be seen as cogent if it has individually acceptable premises that are relevant to the argument's conclusion and that are sufficient to draw the conclusion. Try to adequately weight your judgments about local acceptability, local relevance, and local sufficiency when judging about cogency--unless there is a particular dimension among these that dominates your view of an argument. Accordingly, if you identify more than one argument, try to adequately weight the cogency of each argument when judging about their "aggregate" cogency--unless there is a particular argument that dominates your view of the author's argumentation.
-
 How would you rate the success of the author's argumentation in creating credibility?
 • 5 (Very high)
 • 4 (High)
@@ -75,14 +67,6 @@ How would you rate the arrangement of the author's argumentation?
 • 1 (Very low)
 Arrangement: An argumentation should be seen as well-arranged if it presents the given issue, the composed arguments, and its conclusion in the right order. Usually, the general issue and the particularly discussed topics should be clear before arguing and concluding about them. Notice, however, that other orderings may be used on purpose and may still be suitable to achieve persuasion. Besides, notice that, within the given setting (online debate forum on a given issue), some parts may be clear (e.g., the issue) and thus left implicit.
 
-How would you rate the effectiveness of the author's argumentation?
-• 5 (Very high)
-• 4 (High)
-• 3 (Medium)
-• 2 (Low)
-• 1 (Very low)
-Effectiveness: An argumentation should be seen as effective if it achieves to persuade you of the author's stance on the discussed issue or--in case you already agreed with the stance before--if it corroborates your agreement with the stance. Besides the actual arguments, also take into consideration the credibility and the emotional force of the argumentation. Decide in dubio pro reo, i.e., if you have no doubt about the correctness of the author's arguments, then do not judge him or her to be not effective--unless you explicitly think that the arguments do not support the author's stance.
-
 How would you rate the global acceptability of the author's argumentation?
 • 5 (Very high)
 • 4 (High)
@@ -106,13 +90,5 @@ How would you rate the global sufficiency of the author's argumentation?
 • 2 (Low)
 • 1 (Very low)
 Global Sufficiency: An argumentation should be seen as globally sufficient if it adequately rebuts those counter-arguments to its conclusion that can be anticipated. Notice that it is not generally clear which and how many counter-arguments can be anticipated. There may be cases where it is infeasible to rebut all such objections. Please judge about global sufficiency according to whether all main objections of an argumentation that you see are rebutted.
-
-How would you rate the reasonableness of the author's argumentation?
-• 5 (Very high)
-• 4 (High)
-• 3 (Medium)
-• 2 (Low)
-• 1 (Very low)
-Reasonableness: An argumentation should be seen as reasonable if it contributes to the resolution of the given issue in a sufficient way that is acceptable to everyone from the expected target audience. Try to adequately weight your judgments about global acceptability, global relevance, and global sufficiency when judging about reasonableness--unless there is a particular dimension among these that dominates your view of the author's argumentation. In doubt, give more credit to global acceptability and global relevance than to global sufficiency due to the limited feasibility of the latter.
 
 Respond with a JSON object only.

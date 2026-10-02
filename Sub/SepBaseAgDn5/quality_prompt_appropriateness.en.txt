@@ -1,0 +1,15 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the appropriateness of the style of the author's argumentation?
+• 5 -- The wording and tone are appropriate and proportionate to the seriousness of the issue and the setting of the discussion.
+• 4 -- Between 5 and 3.
+• 3 -- The wording and tone are largely appropriate, but some expressions are inappropriate or out of proportion to the seriousness of the issue or the setting of the discussion.
+• 2 -- Between 3 and 1.
+• 1 -- The wording or tone is clearly inappropriate, e.g., insulting or vulgar language, or a flippant treatment of a serious issue.
+Appropriateness: Are the wording and tone of the argument appropriate and proportionate to the seriousness of the issue and the setting of the discussion?
+This dimension evaluates only the wording and tone themselves. Do not consider: whether the author seems credible, or whether someone who holds the opposing position would consider the way the argument is stated legitimate.
+
+Respond with a JSON object only.

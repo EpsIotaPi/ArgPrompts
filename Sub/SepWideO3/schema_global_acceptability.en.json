@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "global_acceptability": {"type": "integer", "enum": [1, 2, 3]}
+  },
+  "required": ["global_acceptability"],
+  "additionalProperties": false
+}

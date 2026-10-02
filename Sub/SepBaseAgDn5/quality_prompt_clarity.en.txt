@@ -1,0 +1,15 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the clarity of the style of the author's argumentation?
+• 5 -- The language is correct, concise, and unambiguous; the reader can understand without doubt what the author claims and how the author argues for it.
+• 4 -- Between 5 and 3.
+• 3 -- The reader can broadly understand the author's claim and how the author argues for it, but some language errors, vagueness, or redundancy get in the way of reading.
+• 2 -- Between 3 and 1.
+• 1 -- The language is erroneous, convoluted, or ambiguous; the reader has difficulty determining what the author claims or how the author argues for it.
+Clarity: Is the language of the argument clear, so that the reader can understand exactly what the author claims and how the author argues for it?
+This dimension evaluates only whether the language makes the text easy for the reader to understand. Do not consider: whether the wording and tone are appropriate, or whether the structure of the argument and the transitions between its components are sensible.
+
+Respond with a JSON object only.

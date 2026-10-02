@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the relevance of the premises (Local Relevance) of the author's argument?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Local Relevance: Assuming the premises are true, can they all serve as reasons or evidence relevant to the conclusion?
+
+Respond with a JSON object only.

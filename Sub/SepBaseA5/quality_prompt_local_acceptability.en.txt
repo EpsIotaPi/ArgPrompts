@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the acceptability of the premises (Local Acceptability) of the author's argument?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Local Acceptability: Are the premises of the argument worthy of being believed on rational grounds?
+
+Respond with a JSON object only.

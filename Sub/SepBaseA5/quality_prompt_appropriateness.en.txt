@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the appropriateness of the style of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Appropriateness: Are the wording and tone of the argument appropriate and proportionate to the seriousness of the issue and the setting of the discussion?
+
+Respond with a JSON object only.

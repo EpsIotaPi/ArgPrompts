@@ -1,0 +1,12 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the global relevance of the author's argumentation?
+• 3 (High)
+• 2 (Medium)
+• 1 (Low)
+Global Relevance: An argumentation should be seen as globally relevant if it contributes to the resolution of the given issue, i.e., if it provides arguments and/or other information that help to arrive at an ultimate conclusion regarding the discussed issue. You should be open to see an argumentation as relevant even if it does not your match your stance on the issue. Rather, the question is whether the provided arguments and information are worthy of being considered within the discussion of the issue.
+
+Respond with a JSON object only.

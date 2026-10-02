@@ -1,0 +1,26 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+Eleven quality dimensions are defined as follows.
+Local Acceptability: Are the premises of the argument worthy of being believed on rational grounds?
+Local Relevance: Assuming the premises are true, can they all serve as reasons or evidence relevant to the conclusion?
+Local Sufficiency: Assuming the premises are true, do they together provide enough support to make it rational to accept the conclusion?
+Credibility: Does the way that the argument is expressed make the author seem trustworthy and sufficiently knowledgeable about the issue?
+Emotional Appeal: Does the argument evoke the reader's emotions in a way that makes the reader more willing to accept the author's argument?
+Clarity: Is the language of the argument clear, so that the reader can understand exactly what the author claims and how the author argues for it?
+Appropriateness: Are the wording and tone of the argument appropriate and proportionate to the seriousness of the issue and the setting of the discussion?
+Arrangement: Does the argument organize the issue, premises, conclusion, and other components in a sensible order, with suitable transitions between them?
+Global Acceptability: Would someone who holds the opposing position also accept the author discussing the issue with these premises and in this way?
+Global Relevance: Is the argument relevant to the issue under discussion, and does it help move the issue toward a resolution?
+Global Sufficiency: Does the argument raise opposing views and respond to them adequately (including implicit responses)?
+
+How would you rate the global acceptability of the author's argumentation?
+• 5 -- Even someone who holds the opposing position would consider it legitimate to discuss the issue with these premises and in the way the argument is stated.
+• 4 -- Between 5 and 3.
+• 3 -- Someone who holds the opposing position would consider most premises and the way the argument is stated largely legitimate, but would consider some premises or some aspects of how the argument is stated illegitimate.
+• 2 -- Between 3 and 1.
+• 1 -- Someone who holds the opposing position would consider most premises or the key premises illegitimate, or would clearly find the way the argument is stated unacceptable.
+
+Respond with a JSON object only.

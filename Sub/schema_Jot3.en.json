@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "local_acceptability": {"type": "integer", "enum": [1, 2, 3]},
+    "local_relevance": {"type": "integer", "enum": [1, 2, 3]},
+    "local_sufficiency": {"type": "integer", "enum": [1, 2, 3]},
+    "credibility": {"type": "integer", "enum": [1, 2, 3]},
+    "emotional_appeal": {"type": "integer", "enum": [1, 2, 3]},
+    "clarity": {"type": "integer", "enum": [1, 2, 3]},
+    "appropriateness": {"type": "integer", "enum": [1, 2, 3]},
+    "arrangement": {"type": "integer", "enum": [1, 2, 3]},
+    "global_acceptability": {"type": "integer", "enum": [1, 2, 3]},
+    "global_relevance": {"type": "integer", "enum": [1, 2, 3]},
+    "global_sufficiency": {"type": "integer", "enum": [1, 2, 3]}
+  },
+  "required": ["local_acceptability", "local_relevance", "local_sufficiency", "credibility", "emotional_appeal", "clarity", "appropriateness", "arrangement", "global_acceptability", "global_relevance", "global_sufficiency"],
+  "additionalProperties": false
+}

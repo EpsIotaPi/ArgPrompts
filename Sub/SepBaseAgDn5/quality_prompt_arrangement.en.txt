@@ -1,0 +1,15 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the arrangement of the author's argumentation?
+• 5 -- The arrangement is sensible, and the transitions between the components are natural.
+• 4 -- Between 5 and 3.
+• 3 -- The overall structure is recognizable, but some components are out of order or lack transitions.
+• 2 -- Between 3 and 1.
+• 1 -- There is no recognizable structure; premises and conclusion are piled together haphazardly, with no transitions between the components.
+Arrangement: Does the argument organize the issue, premises, conclusion, and other components in a sensible order, with suitable transitions between them?
+This dimension evaluates only whether the structure of the argument and the transitions between its components are sensible. Depending on the setting of the discussion, the issue and other components that are already clear may be left implicit. Do not consider: whether the language is clear and unambiguous.
+
+Respond with a JSON object only.

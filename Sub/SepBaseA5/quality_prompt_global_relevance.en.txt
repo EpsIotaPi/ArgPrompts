@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the global relevance of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Global Relevance: Is the argument relevant to the issue under discussion, and does it help move the issue toward a resolution?
+
+Respond with a JSON object only.

@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the arrangement of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Arrangement: Does the argument organize the issue, premises, conclusion, and other components in a sensible order, with suitable transitions between them?
+
+Respond with a JSON object only.

@@ -1,0 +1,94 @@
+Please answer the following questions for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the acceptability of the premises (Local Acceptability) of the author's argument?
+• 5 -- All premises are worthy of being believed.
+• 4 -- Between 5 and 3.
+• 3 -- Some premises are worthy of being believed, but others are not; or the premises are only barely worthy of being believed.
+• 2 -- Between 3 and 1.
+• 1 -- Most premises or the key premises are not worthy of being believed.
+Local Acceptability: Are the premises of the argument worthy of being believed on rational grounds?
+
+How would you rate the relevance of the premises (Local Relevance) of the author's argument?
+• 5 -- All premises can serve as reasons or evidence relevant to the conclusion.
+• 4 -- Between 5 and 3.
+• 3 -- Some premises can serve as reasons or evidence relevant to the conclusion, but others are irrelevant to it.
+• 2 -- Between 3 and 1.
+• 1 -- Most premises or the key premises are irrelevant to the conclusion.
+Local Relevance: Assuming the premises are true, can they all serve as reasons or evidence relevant to the conclusion?
+
+How would you rate the sufficiency of the premises (Local Sufficiency) of the author's argument?
+• 5 -- The premises together provide enough support to make it rational to accept the conclusion.
+• 4 -- Between 5 and 3.
+• 3 -- The premises provide limited support for the conclusion. They support only a weaker conclusion than the one stated. Further important premises are needed.
+• 2 -- Between 3 and 1.
+• 1 -- The premises provide almost no support for the conclusion; there is an obvious leap from the premises to the conclusion.
+Local Sufficiency: Assuming the premises are true, do they together provide enough support to make it rational to accept the conclusion?
+
+How would you rate the success of the author's argumentation in creating credibility?
+• 5 -- The text makes the author seem trustworthy and sufficiently knowledgeable about the issue, e.g., by providing concrete sources.
+• 4 -- Between 5 and 3.
+• 3 -- The text neither establishes nor undermines the author's credibility.
+• 2 -- Between 3 and 1.
+• 1 -- The text undermines the author's credibility, e.g., by revealing the author's misunderstanding of the issue or bias about it.
+Credibility: Does the way that the argument is expressed make the author seem trustworthy and sufficiently knowledgeable about the issue?
+
+How would you rate the success of the author's argumentation in making an emotional appeal?
+• 5 -- The text successfully evokes the reader's emotions, making the reader more willing to accept the author's argument.
+• 4 -- Between 5 and 3.
+• 3 -- The text evokes no notable emotions, or the emotions it evokes neither increase nor decrease the reader's willingness to accept the argument.
+• 2 -- Between 3 and 1.
+• 1 -- The emotional appeal backfires, making the reader more resistant to the author's argument, e.g., through inflammatory or intimidating appeals.
+Emotional Appeal: Does the argument evoke the reader's emotions in a way that makes the reader more willing to accept the author's argument?
+
+How would you rate the clarity of the style of the author's argumentation?
+• 5 -- The language is correct, concise, and unambiguous; the reader can understand without doubt what the author claims and how the author argues for it.
+• 4 -- Between 5 and 3.
+• 3 -- The reader can broadly understand the author's claim and how the author argues for it, but some language errors, vagueness, or redundancy get in the way of reading.
+• 2 -- Between 3 and 1.
+• 1 -- The language is erroneous, convoluted, or ambiguous; the reader has difficulty determining what the author claims or how the author argues for it.
+Clarity: Is the language of the argument clear, so that the reader can understand exactly what the author claims and how the author argues for it?
+
+How would you rate the appropriateness of the style of the author's argumentation?
+• 5 -- The wording and tone are appropriate and proportionate to the seriousness of the issue and the setting of the discussion.
+• 4 -- Between 5 and 3.
+• 3 -- The wording and tone are largely appropriate, but some expressions are inappropriate or out of proportion to the seriousness of the issue or the setting of the discussion.
+• 2 -- Between 3 and 1.
+• 1 -- The wording or tone is clearly inappropriate, e.g., insulting or vulgar language, or a flippant treatment of a serious issue.
+Appropriateness: Are the wording and tone of the argument appropriate and proportionate to the seriousness of the issue and the setting of the discussion?
+
+How would you rate the arrangement of the author's argumentation?
+• 5 -- The arrangement is sensible, and the transitions between the components are natural.
+• 4 -- Between 5 and 3.
+• 3 -- The overall structure is recognizable, but some components are out of order or lack transitions.
+• 2 -- Between 3 and 1.
+• 1 -- There is no recognizable structure; premises and conclusion are piled together haphazardly, with no transitions between the components.
+Arrangement: Does the argument organize the issue, premises, conclusion, and other components in a sensible order, with suitable transitions between them?
+
+How would you rate the global acceptability of the author's argumentation?
+• 5 -- Even someone who holds the opposing position would consider it legitimate to discuss the issue with these premises and in the way the argument is stated.
+• 4 -- Between 5 and 3.
+• 3 -- Someone who holds the opposing position would consider most premises and the way the argument is stated largely legitimate, but would consider some premises or some aspects of how the argument is stated illegitimate.
+• 2 -- Between 3 and 1.
+• 1 -- Someone who holds the opposing position would consider most premises or the key premises illegitimate, or would clearly find the way the argument is stated unacceptable.
+Global Acceptability: Would someone who holds the opposing position also accept the author discussing the issue with these premises and in this way?
+
+How would you rate the global relevance of the author's argumentation?
+• 5 -- The argument stays focused on the core controversy of the issue, and the premises or information it provides substantively advance the discussion.
+• 4 -- Between 5 and 3.
+• 3 -- The argument is relevant to the issue under discussion, but touches only on minor or peripheral aspects of it, doing little to advance the discussion.
+• 2 -- Between 3 and 1.
+• 1 -- The argument is largely irrelevant to the issue under discussion, or does almost nothing to advance the discussion, e.g., by straying from the topic, merely restating its position, or dwelling on trivial details.
+Global Relevance: Is the argument relevant to the issue under discussion, and does it help move the issue toward a resolution?
+
+How would you rate the global sufficiency of the author's argumentation?
+• 5 -- The argument raises opposing views and rebuts them adequately.
+• 4 -- Between 5 and 3.
+• 3 -- The argument does not raise opposing views, or mentions them without responding to them.
+• 2 -- Between 3 and 1.
+• 1 -- The argument presents or responds to opposing views in an improper way, e.g., by misrepresenting them or by substituting ridicule for substantive rebuttal.
+Global Sufficiency: Does the argument raise opposing views and respond to them adequately (including implicit responses)?
+
+Respond with a JSON object only.

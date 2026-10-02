@@ -1,0 +1,15 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the acceptability of the premises (Local Acceptability) of the author's argument?
+• 5 -- All premises are worthy of being believed.
+• 4 -- Between 5 and 3.
+• 3 -- Some premises are worthy of being believed, but others are not; or the premises are only barely worthy of being believed.
+• 2 -- Between 3 and 1.
+• 1 -- Most premises or the key premises are not worthy of being believed.
+Local Acceptability: Are the premises of the argument worthy of being believed on rational grounds?
+This dimension evaluates only the premises themselves, one by one. Do not consider: whether the premises support the conclusion, whether someone who holds the opposing position would accept these premises, or the credibility of the author as conveyed by the text.
+
+Respond with a JSON object only.

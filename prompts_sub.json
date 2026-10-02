@@ -1,6 +1,21 @@
 {
   "version": "1.0",
   "prompts": {
+    "AQ_SubJotWideO3": {
+      "description": "Argument Quality Assessment: SubJotWideO3",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "user_path": "Sub/quality_prompt_JotWideO3.en.txt",
+          "schema_path": "Sub/schema_Jot3.en.json"
+        }
+      }
+    },
     "AQ_SubJotWideO5": {
       "description": "Argument Quality Assessment: SubJotWideO5",
       "variables": [
@@ -12,7 +27,67 @@
         "en": {
           "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
           "user_path": "Sub/quality_prompt_JotWideO5.en.txt",
-          "schema_path": "Sub/schema_JotSub5.en.json"
+          "schema_path": "Sub/schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_SubJotWideA5": {
+      "description": "Argument Quality Assessment: SubJotWideA5",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "user_path": "Sub/quality_prompt_JotWideA5.en.txt",
+          "schema_path": "Sub/schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_SubJotWideAg5": {
+      "description": "Argument Quality Assessment: SubJotWideAg5",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "user_path": "Sub/quality_prompt_JotWideAg5.en.txt",
+          "schema_path": "Sub/schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_SubJotWideAgDn5": {
+      "description": "Argument Quality Assessment: SubJotWideAgDn5",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "user_path": "Sub/quality_prompt_JotWideAgDn5.en.txt",
+          "schema_path": "Sub/schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_SubSepBaseO3": {
+      "description": "Argument Quality Assessment: SubSepBaseO3",
+      "prompt_key_list": "sub",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "Sub/SepBaseO3"
         }
       }
     },
@@ -31,6 +106,21 @@
         }
       }
     },
+    "AQ_SubSepBaseA5": {
+      "description": "Argument Quality Assessment: SubSepBaseA5",
+      "prompt_key_list": "sub",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "Sub/SepBaseA5"
+        }
+      }
+    },
     "AQ_SubSepBaseAg5": {
       "description": "Argument Quality Assessment: SubSepBaseAg5",
       "prompt_key_list": "sub",
@@ -43,6 +133,96 @@
         "en": {
           "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
           "path": "Sub/SepBaseAg5"
+        }
+      }
+    },
+    "AQ_SubSepBaseAgDn5": {
+      "description": "Argument Quality Assessment: SubSepBaseAgDn5",
+      "prompt_key_list": "sub",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "Sub/SepBaseAgDn5"
+        }
+      }
+    },
+    "AQ_SubSepWideO3": {
+      "description": "Argument Quality Assessment: SubSepWideO3",
+      "prompt_key_list": "sub",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "Sub/SepWideO3"
+        }
+      }
+    },
+    "AQ_SubSepWideO5": {
+      "description": "Argument Quality Assessment: SubSepWideO5",
+      "prompt_key_list": "sub",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "Sub/SepWideO5"
+        }
+      }
+    },
+    "AQ_SubSepWideA5": {
+      "description": "Argument Quality Assessment: SubSepWideA5",
+      "prompt_key_list": "sub",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "Sub/SepWideA5"
+        }
+      }
+    },
+    "AQ_SubSepWideAg5": {
+      "description": "Argument Quality Assessment: SubSepWideAg5",
+      "prompt_key_list": "sub",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "Sub/SepWideAg5"
+        }
+      }
+    },
+    "AQ_SubSepWideAgDn5": {
+      "description": "Argument Quality Assessment: SubSepWideAgDn5",
+      "prompt_key_list": "sub",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "Sub/SepWideAgDn5"
         }
       }
     }

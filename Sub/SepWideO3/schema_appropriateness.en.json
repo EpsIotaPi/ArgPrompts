@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "appropriateness":  {"type": "integer", "enum": [1, 2, 3]}
+  },
+  "required": ["appropriateness"],
+  "additionalProperties": false
+}

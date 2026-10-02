@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "global_sufficiency":  {"type": "integer", "enum": [1, 2, 3]}
+  },
+  "required": ["global_sufficiency"],
+  "additionalProperties": false
+}

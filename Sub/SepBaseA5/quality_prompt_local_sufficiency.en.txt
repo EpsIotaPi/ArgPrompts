@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the sufficiency of the premises (Local Sufficiency) of the author's argument?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Local Sufficiency: Assuming the premises are true, do they together provide enough support to make it rational to accept the conclusion?
+
+Respond with a JSON object only.

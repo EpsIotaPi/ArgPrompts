@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the success of the author's argumentation in creating credibility?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Credibility: Does the way that the argument is expressed make the author seem trustworthy and sufficiently knowledgeable about the issue?
+
+Respond with a JSON object only.

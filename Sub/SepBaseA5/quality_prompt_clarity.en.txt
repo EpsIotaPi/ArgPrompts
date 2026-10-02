@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the clarity of the style of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Clarity: Is the language of the argument clear, so that the reader can understand exactly what the author claims and how the author argues for it?
+
+Respond with a JSON object only.

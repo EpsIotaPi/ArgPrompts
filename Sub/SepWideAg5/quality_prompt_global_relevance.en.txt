@@ -1,0 +1,26 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+Eleven quality dimensions are defined as follows.
+Local Acceptability: Are the premises of the argument worthy of being believed on rational grounds?
+Local Relevance: Assuming the premises are true, can they all serve as reasons or evidence relevant to the conclusion?
+Local Sufficiency: Assuming the premises are true, do they together provide enough support to make it rational to accept the conclusion?
+Credibility: Does the way that the argument is expressed make the author seem trustworthy and sufficiently knowledgeable about the issue?
+Emotional Appeal: Does the argument evoke the reader's emotions in a way that makes the reader more willing to accept the author's argument?
+Clarity: Is the language of the argument clear, so that the reader can understand exactly what the author claims and how the author argues for it?
+Appropriateness: Are the wording and tone of the argument appropriate and proportionate to the seriousness of the issue and the setting of the discussion?
+Arrangement: Does the argument organize the issue, premises, conclusion, and other components in a sensible order, with suitable transitions between them?
+Global Acceptability: Would someone who holds the opposing position also accept the author discussing the issue with these premises and in this way?
+Global Relevance: Is the argument relevant to the issue under discussion, and does it help move the issue toward a resolution?
+Global Sufficiency: Does the argument raise opposing views and respond to them adequately (including implicit responses)?
+
+How would you rate the global relevance of the author's argumentation?
+• 5 -- The argument stays focused on the core controversy of the issue, and the premises or information it provides substantively advance the discussion.
+• 4 -- Between 5 and 3.
+• 3 -- The argument is relevant to the issue under discussion, but touches only on minor or peripheral aspects of it, doing little to advance the discussion.
+• 2 -- Between 3 and 1.
+• 1 -- The argument is largely irrelevant to the issue under discussion, or does almost nothing to advance the discussion, e.g., by straying from the topic, merely restating its position, or dwelling on trivial details.
+
+Respond with a JSON object only.

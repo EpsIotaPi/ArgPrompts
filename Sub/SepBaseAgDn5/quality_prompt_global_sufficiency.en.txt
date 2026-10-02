@@ -1,0 +1,15 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the global sufficiency of the author's argumentation?
+• 5 -- The argument raises opposing views and rebuts them adequately.
+• 4 -- Between 5 and 3.
+• 3 -- The argument does not raise opposing views, or mentions them without responding to them.
+• 2 -- Between 3 and 1.
+• 1 -- The argument presents or responds to opposing views in an improper way, e.g., by misrepresenting them or by substituting ridicule for substantive rebuttal.
+Global Sufficiency: Does the argument raise opposing views and respond to them adequately (including implicit responses)?
+This dimension evaluates only how the argument responds to opposing views. Do not consider: whether the premises are enough to support the author's conclusion, or whether the argument as a whole advances the discussion.
+
+Respond with a JSON object only.

@@ -1,0 +1,15 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the relevance of the premises (Local Relevance) of the author's argument?
+• 5 -- All premises can serve as reasons or evidence relevant to the conclusion.
+• 4 -- Between 5 and 3.
+• 3 -- Some premises can serve as reasons or evidence relevant to the conclusion, but others are irrelevant to it.
+• 2 -- Between 3 and 1.
+• 1 -- Most premises or the key premises are irrelevant to the conclusion.
+Local Relevance: Assuming the premises are true, can they all serve as reasons or evidence relevant to the conclusion?
+This dimension evaluates only the relation between each premise and the conclusion. Do not consider: whether the premises are worthy of being believed, whether the support for the conclusion is sufficient, or whether the argument advances the discussion of the issue as a whole.
+
+Respond with a JSON object only.
