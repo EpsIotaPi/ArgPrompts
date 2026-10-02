@@ -10,7 +10,7 @@
       "json_object": true,
       "languages": {
         "en": {
-          "system": "You are an annotator in an argumentation quality annotation study.",
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
           "user_path": "Sub/quality_prompt_JotWideO5.en.txt",
           "schema_path": "Sub/schema_JotSub5.en.json"
         }
@@ -26,7 +26,7 @@
       "json_object": true,
       "languages": {
         "en": {
-          "system": "You are an annotator in an argumentation quality annotation study.",
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
           "path": "Sub/SepBaseO5"
         }
       }
@@ -41,7 +41,7 @@
       "json_object": true,
       "languages": {
         "en": {
-          "system": "You are an annotator in an argumentation quality annotation study.",
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
           "path": "Sub/SepBaseAg5"
         }
       }
