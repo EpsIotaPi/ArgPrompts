@@ -1,0 +1,15 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the reasonableness of the author's argumentation?
+• 5 -- Even someone who holds the opposing position would consider it legitimate to discuss the issue with these premises and in the way the argument is stated; the argument raises opposing views and responds to them adequately, and it helps move the issue toward a resolution.
+• 4 -- Between 5 and 3.
+• 3 -- Someone who holds the opposing position would broadly accept discussing the issue with these premises and in the way the argument is stated; the argument does not raise opposing views, or mentions them without responding to them, and does little to advance the discussion.
+• 2 -- Between 3 and 1.
+• 1 -- The argument discusses the issue with clearly illegitimate premises or in a clearly illegitimate way; or it is largely irrelevant to the issue under discussion and does almost nothing to advance the discussion.
+Reasonableness: Consider the role the argument plays in the wider discussion of the issue. Would someone who holds the opposing position consider it legitimate to discuss the issue with these premises and in the way the argument is stated? Does the argument raise opposing views and respond to them adequately? Does it help move the issue toward a resolution?
+Reasonableness turns on what the argument contributes to the issue as a whole: even where its reasoning is weak, and even where it is plainly or clumsily put, it can still be reasonable.
+
+Respond with a JSON object only.

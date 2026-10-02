@@ -1,0 +1,12 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the cogency of the author's argument?
+• 3 (High)
+• 2 (Medium)
+• 1 (Low)
+Cogency: An argument should be seen as cogent if it has individually acceptable premises that are relevant to the argument's conclusion and that are sufficient to draw the conclusion.
+
+Respond with a JSON object only.

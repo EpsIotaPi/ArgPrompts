@@ -1,0 +1,16 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+Three quality dimensions are defined as follows.
+Cogency: An argument should be seen as cogent if it has individually acceptable premises that are relevant to the argument's conclusion and that are sufficient to draw the conclusion.
+Effectiveness: An argumentation should be seen as effective if it achieves to persuade you of the author's stance on the discussed issue or--in case you already agreed with the stance before--if it corroborates your agreement with the stance. Besides the actual arguments, also take into consideration the credibility and the emotional force of the argumentation.
+Reasonableness: An argumentation should be seen as reasonable if it contributes to the resolution of the given issue in a sufficient way that is acceptable to everyone from the expected target audience.
+
+How would you rate the reasonableness of the author's argumentation?
+• 3 (High)
+• 2 (Medium)
+• 1 (Low)
+
+Respond with a JSON object only.

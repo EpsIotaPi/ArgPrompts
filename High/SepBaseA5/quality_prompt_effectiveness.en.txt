@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the effectiveness of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Effectiveness: Consider how the rhetoric of the text works on the reader. Is the author's language grammatically correct and clearly worded? Are the wording and tone proportionate to the seriousness of the issue and the setting of the discussion? Does the way the text is written make the author seem trustworthy and sufficiently knowledgeable about the issue? Are the components of the argument organized in a sensible order, with suitable transitions between them? Does the text evoke the reader's emotions in a way that makes the reader more willing to accept the author's argument?
+
+Respond with a JSON object only.

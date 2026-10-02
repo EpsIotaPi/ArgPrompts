@@ -1,0 +1,19 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+Three quality dimensions are defined as follows.
+Cogency: Consider the premises the author's argument rests on, and how those premises relate to the final conclusion. Are the premises that the argument uses worthy of being believed? Can each of them serve as a reason or evidence relevant to the conclusion the author draws? Taken together, are they enough to support drawing the conclusion?
+Effectiveness: Consider how the rhetoric of the text works on the reader. Is the author's language grammatically correct and clearly worded? Are the wording and tone proportionate to the seriousness of the issue and the setting of the discussion? Does the way the text is written make the author seem trustworthy and sufficiently knowledgeable about the issue? Are the components of the argument organized in a sensible order, with suitable transitions between them? Does the text evoke the reader's emotions in a way that makes the reader more willing to accept the author's argument?
+Reasonableness: Consider the role the argument plays in the wider discussion of the issue. Would someone who holds the opposing position consider it legitimate to discuss the issue with these premises and in the way the argument is stated? Does the argument raise opposing views and respond to them adequately? Does it help move the issue toward a resolution?
+
+How would you rate the effectiveness of the author's argumentation?
+• 5 -- The language is clear, the wording and tone are appropriate, and the arrangement is sensible; the author seems trustworthy, and the text evokes the reader's emotions in a way that makes the reader more willing to accept the author's argument.
+• 4 -- Between 5 and 3.
+• 3 -- The language is broadly clear, the wording and tone are largely appropriate, and the arrangement is largely sensible; the text neither establishes nor undermines the author's credibility, and it evokes no notable emotions.
+• 2 -- Between 3 and 1.
+• 1 -- The language is vague or the structure is disordered, getting in the way of the reader's understanding of the author's meaning; the wording and tone are clearly inappropriate; the text undermines the author's credibility; the emotional appeal backfires, making the reader unwilling to accept the author's argument.
+Effectiveness turns on how the writing works on the reader: even where its reasoning is weak, and even where it does little for the discussion of the issue, it can still be effective.
+
+Respond with a JSON object only.

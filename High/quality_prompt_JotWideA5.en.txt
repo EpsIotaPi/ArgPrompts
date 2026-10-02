@@ -1,0 +1,30 @@
+Please answer the following questions for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the cogency of the author's argument?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Cogency: Consider the premises the author's argument rests on, and how those premises relate to the final conclusion. Are the premises that the argument uses worthy of being believed? Can each of them serve as a reason or evidence relevant to the conclusion the author draws? Taken together, are they enough to support drawing the conclusion?
+
+How would you rate the effectiveness of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Effectiveness: Consider how the rhetoric of the text works on the reader. Is the author's language grammatically correct and clearly worded? Are the wording and tone proportionate to the seriousness of the issue and the setting of the discussion? Does the way the text is written make the author seem trustworthy and sufficiently knowledgeable about the issue? Are the components of the argument organized in a sensible order, with suitable transitions between them? Does the text evoke the reader's emotions in a way that makes the reader more willing to accept the author's argument?
+
+How would you rate the reasonableness of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Reasonableness: Consider the role the argument plays in the wider discussion of the issue. Would someone who holds the opposing position consider it legitimate to discuss the issue with these premises and in the way the argument is stated? Does the argument raise opposing views and respond to them adequately? Does it help move the issue toward a resolution?
+
+Respond with a JSON object only.

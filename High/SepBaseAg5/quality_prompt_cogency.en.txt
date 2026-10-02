@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the cogency of the author's argument?
+• 5 -- All premises are worthy of being believed and relevant to the conclusion; taken together, they are enough to support it.
+• 4 -- Between 5 and 3.
+• 3 -- Some premises are worthy of being believed and relevant to the conclusion, but others are not worthy of being believed or are irrelevant to it; taken together, the premises provide only limited support for the conclusion.
+• 2 -- Between 3 and 1.
+• 1 -- Most premises or the key premises are not worthy of being believed or are irrelevant to the conclusion, and the premises provide almost no support for it; or no premise is offered at all.
+Cogency: Consider the premises the author's argument rests on, and how those premises relate to the final conclusion. Are the premises that the argument uses worthy of being believed? Can each of them serve as a reason or evidence relevant to the conclusion the author draws? Taken together, are they enough to support drawing the conclusion?
+
+Respond with a JSON object only.

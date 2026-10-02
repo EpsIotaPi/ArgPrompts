@@ -1,0 +1,187 @@
+{
+  "version": "1.0",
+  "prompts": {
+    "AQ_HighJotWideO3": {
+      "description": "Argument Quality Assessment: HighJotWideO3",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "user_path": "High/quality_prompt_JotWideO3.en.txt",
+          "schema_path": "schema_Jot3.en.json"
+        }
+      }
+    },
+    "AQ_HighJotWideO5": {
+      "description": "Argument Quality Assessment: HighJotWideO5",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "user_path": "High/quality_prompt_JotWideO5.en.txt",
+          "schema_path": "schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_HighJotWideA5": {
+      "description": "Argument Quality Assessment: HighJotWideA5",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "user_path": "High/quality_prompt_JotWideA5.en.txt",
+          "schema_path": "schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_HighJotWideAg5": {
+      "description": "Argument Quality Assessment: HighJotWideAg5",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "user_path": "High/quality_prompt_JotWideAg5.en.txt",
+          "schema_path": "schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_HighJotWideAgDn5": {
+      "description": "Argument Quality Assessment: HighJotWideAgDn5",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "user_path": "High/quality_prompt_JotWideAgDn5.en.txt",
+          "schema_path": "schema_Jot5.en.json"
+        }
+      }
+    },
+
+    "AQ_HighSepBaseO3": {
+      "description": "Argument Quality Assessment: HighSepBaseO3",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "High/SepBaseO3"
+        }
+      }
+    },
+    "AQ_HighSepBaseO5": {
+      "description": "Argument Quality Assessment: HighSepBaseO5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "High/SepBaseO5"
+        }
+      }
+    },
+    "AQ_HighSepBaseA5": {
+      "description": "Argument Quality Assessment: HighSepBaseA5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "High/SepBaseA5"
+        }
+      }
+    },
+    "AQ_HighSepBaseAg5": {
+      "description": "Argument Quality Assessment: HighSepBaseAg5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "High/SepBaseAg5"
+        }
+      }
+    },
+    "AQ_HighSepBaseAgDn5": {
+      "description": "Argument Quality Assessment: HighSepBaseAgDn5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "High/SepBaseAgDn5"
+        }
+      }
+    },
+
+    "AQ_HighSepWideO3": {
+      "description": "Argument Quality Assessment: HighSepWideO3",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "High/SepWideO3"
+        }
+      }
+    },
+    "AQ_HighSepWideO5": {
+      "description": "Argument Quality Assessment: HighSepWideO5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "High/SepWideO5"
+        }
+      }
+    },
+    "AQ_HighSepWideA5": {
+      "description": "Argument Quality Assessment: HighSepWideA5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "High/SepWideA5"
+        }
+      }
+    },
+    "AQ_HighSepWideAg5": {
+      "description": "Argument Quality Assessment: HighSepWideAg5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "High/SepWideAg5"
+        }
+      }
+    },
+    "AQ_HighSepWideAgDn5": {
+      "description": "Argument Quality Assessment: HighSepWideAgDn5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argument annotation study. Rate each comment according to the criteria given in each task. Whether or not you agree with the author's position on the issue, do not let it influence your rating.",
+          "path": "High/SepWideAgDn5"
+        }
+      }
+    }
+  }
+}

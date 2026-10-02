@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the reasonableness of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Reasonableness: Consider the role the argument plays in the wider discussion of the issue. Would someone who holds the opposing position consider it legitimate to discuss the issue with these premises and in the way the argument is stated? Does the argument raise opposing views and respond to them adequately? Does it help move the issue toward a resolution?
+
+Respond with a JSON object only.
