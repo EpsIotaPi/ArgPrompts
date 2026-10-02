@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the sufficiency of the premises (Local Sufficiency) of the author's argument?
+• 5 -- The premises together provide enough support to make it rational to accept the conclusion.
+• 4 -- Between 5 and 3.
+• 3 -- The premises provide limited support for the conclusion. They support only a weaker conclusion than the one stated. Further important premises are needed.
+• 2 -- Between 3 and 1.
+• 1 -- The premises provide almost no support for the conclusion; there is an obvious leap from the premises to the conclusion.
+Local Sufficiency: Assuming the premises are true, do they together provide enough support to make it rational to accept the conclusion?
+
+Respond with a JSON object only.

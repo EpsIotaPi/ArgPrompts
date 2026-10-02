@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the success of the author's argumentation in creating credibility?
+• 5 -- The text makes the author seem trustworthy and sufficiently knowledgeable about the issue, e.g., by providing concrete sources.
+• 4 -- Between 5 and 3.
+• 3 -- The text neither establishes nor undermines the author's credibility.
+• 2 -- Between 3 and 1.
+• 1 -- The text undermines the author's credibility, e.g., by revealing the author's misunderstanding of the issue or bias about it.
+Credibility: Does the way that the argument is expressed make the author seem trustworthy and sufficiently knowledgeable about the issue?
+
+Respond with a JSON object only.

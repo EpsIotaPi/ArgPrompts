@@ -30,6 +30,21 @@
           "path": "Sub/SepBaseO5"
         }
       }
+    },
+    "AQ_SubSepBaseAg5": {
+      "description": "Argument Quality Assessment: SubSepBaseAg5",
+      "prompt_key_list": "sub",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Sub/SepBaseAg5"
+        }
+      }
     }
   }
 }

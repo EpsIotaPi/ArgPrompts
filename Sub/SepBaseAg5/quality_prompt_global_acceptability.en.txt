@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the global acceptability of the author's argumentation?
+• 5 -- Even someone who holds the opposing position would consider it legitimate to discuss the issue with these premises and in the way the argument is stated.
+• 4 -- Between 5 and 3.
+• 3 -- Someone who holds the opposing position would consider most premises and the way the argument is stated largely legitimate, but would consider some premises or some aspects of how the argument is stated illegitimate.
+• 2 -- Between 3 and 1.
+• 1 -- Someone who holds the opposing position would consider most premises or the key premises illegitimate, or would clearly find the way the argument is stated unacceptable.
+Global Acceptability: Would someone who holds the opposing position also accept the author discussing the issue with these premises and in this way?
+
+Respond with a JSON object only.
