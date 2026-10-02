@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "prompts": {
+    "AQ_SubJotWideO5": {
+      "description": "Argument Quality Assessment: SubJotWideO5",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Sub/quality_prompt_JotWideO5.en.txt",
+          "schema_path": "Sub/schema_JotSub5.en.json"
+        }
+      }
+    },
+    "AQ_SubSepBaseO5": {
+      "description": "Argument Quality Assessment: SubSepBaseO5",
+      "prompt_key_list": "sub",
+      "variables": [
+        "issue",
+        "argument"
+      ],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Sub/SepBaseO5"
+        }
+      }
+    }
+  }
+}

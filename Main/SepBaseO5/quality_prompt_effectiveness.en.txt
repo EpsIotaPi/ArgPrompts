@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the effectiveness of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Effectiveness: An argumentation should be seen as effective if it achieves to persuade you of the author's stance on the discussed issue or--in case you already agreed with the stance before--if it corroborates your agreement with the stance. Besides the actual arguments, also take into consideration the credibility and the emotional force of the argumentation.
+
+Respond with a JSON object only.

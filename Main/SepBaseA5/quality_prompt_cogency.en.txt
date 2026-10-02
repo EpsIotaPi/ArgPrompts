@@ -1,0 +1,16 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the cogency of the author's argument?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Cogency: Consider the premises the author's argument rests on, and how those premises stand to the final conclusion. Are the premises it uses worthy of being believed? Does each of them count as a reason or evidence bearing on the conclusion the author draws? And taken together, do they give enough support to draw it?
+
+Not every point named in the definition needs to be met for a high rating -- weigh the points that apply. Where a point cannot be judged from the text, do not let it count against the author.
+
+Respond with a JSON object only.

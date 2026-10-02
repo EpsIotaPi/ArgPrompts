@@ -1,0 +1,12 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the overall quality of the author's argumentation?
+• 3 (High)
+• 2 (Medium)
+• 1 (Low)
+Overall quality: Your overall impression of how good the author's argumentation is, taking everything into account that you think matters.
+
+Respond with a JSON object only.

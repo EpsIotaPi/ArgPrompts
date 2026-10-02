@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the acceptability of the premises (Local Acceptability) of the author's argument?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Local Acceptability: A premise of an argument should be seen as acceptable if it is worthy of being believed, i.e., if you rationally think it is true or if you see no reason for not believing that it may be true. If you identify more than one premise in the comment, try to adequately weight the acceptability of each premise when judging about their "aggregate" acceptability--unless there are particular premises that dominate your view of the author's argumentation.
+
+Respond with a JSON object only.

@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "prompts": {
+    "AQ_JotWideAgSq5": {
+      "description": "Argument Quality Assessment: JotWideAgSq5",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/quality_prompt_JotWideAgSq5.en.txt",
+          "schema_path": "schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_JotWideAgDnSq5": {
+      "description": "Argument Quality Assessment: JotWideAgDnSq5",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/quality_prompt_JotWideAgDnSq5.en.txt",
+          "schema_path": "schema_Jot5.en.json"
+        }
+      }
+    },
+
+    "AQ_SepBaseAgSq5_cogency": {
+      "description": "Argument Quality Assessment: SepBaseAgSq5-Cogency",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepBaseAgSq5/quality_prompt_cogency.en.txt",
+          "schema_path": "Seq/SepBaseAgSq5/schema_cogency.en.json"
+        }
+      }
+    },
+    "AQ_SepBaseAgSq5_effectiveness": {
+      "description": "Argument Quality Assessment: SepBaseAgSq5-Effectiveness",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepBaseAgSq5/quality_prompt_effectiveness.en.txt",
+          "schema_path": "Seq/SepBaseAgSq5/schema_effectiveness.en.json"
+        }
+      }
+    },
+    "AQ_SepBaseAgSq5_reasonableness": {
+      "description": "Argument Quality Assessment: SepBaseAgSq5-Reasonableness",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepBaseAgSq5/quality_prompt_reasonableness.en.txt",
+          "schema_path": "Seq/SepBaseAgSq5/schema_reasonableness.en.json"
+        }
+      }
+    },
+
+    "AQ_SepBaseAgDnSq5_cogency": {
+      "description": "Argument Quality Assessment: SepBaseAgDnSq5-Cogency",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepBaseAgDnSq5/quality_prompt_cogency.en.txt",
+          "schema_path": "Seq/SepBaseAgDnSq5/schema_cogency.en.json"
+        }
+      }
+    },
+    "AQ_SepBaseAgDnSq5_effectiveness": {
+      "description": "Argument Quality Assessment: SepBaseAgDnSq5-Effectiveness",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepBaseAgDnSq5/quality_prompt_effectiveness.en.txt",
+          "schema_path": "Seq/SepBaseAgDnSq5/schema_effectiveness.en.json"
+        }
+      }
+    },
+    "AQ_SepBaseAgDnSq5_reasonableness": {
+      "description": "Argument Quality Assessment: SepBaseAgDnSq5-Reasonableness",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepBaseAgDnSq5/quality_prompt_reasonableness.en.txt",
+          "schema_path": "Seq/SepBaseAgDnSq5/schema_reasonableness.en.json"
+        }
+      }
+    },
+
+    "AQ_SepWideAgSq5_cogency": {
+      "description": "Argument Quality Assessment: SepWideAgSq5-Cogency",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepWideAgSq5/quality_prompt_cogency.en.txt",
+          "schema_path": "Seq/SepWideAgSq5/schema_cogency.en.json"
+        }
+      }
+    },
+    "AQ_SepWideAgSq5_effectiveness": {
+      "description": "Argument Quality Assessment: SepWideAgSq5-Effectiveness",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepWideAgSq5/quality_prompt_effectiveness.en.txt",
+          "schema_path": "Seq/SepWideAgSq5/schema_effectiveness.en.json"
+        }
+      }
+    },
+    "AQ_SepWideAgSq5_reasonableness": {
+      "description": "Argument Quality Assessment: SepWideAgSq5-Reasonableness",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepWideAgSq5/quality_prompt_reasonableness.en.txt",
+          "schema_path": "Seq/SepWideAgSq5/schema_reasonableness.en.json"
+        }
+      }
+    },
+
+    "AQ_SepWideAgDnSq5_cogency": {
+      "description": "Argument Quality Assessment: SepWideAgDnSq5-Cogency",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepWideAgDnSq5/quality_prompt_cogency.en.txt",
+          "schema_path": "Seq/SepWideAgDnSq5/schema_cogency.en.json"
+        }
+      }
+    },
+    "AQ_SepWideAgDnSq5_effectiveness": {
+      "description": "Argument Quality Assessment: SepWideAgDnSq5-Effectiveness",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepWideAgDnSq5/quality_prompt_effectiveness.en.txt",
+          "schema_path": "Seq/SepWideAgDnSq5/schema_effectiveness.en.json"
+        }
+      }
+    },
+    "AQ_SepWideAgDnSq5_reasonableness": {
+      "description": "Argument Quality Assessment: SepWideAgDnSq5-Reasonableness",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Seq/SepWideAgDnSq5/quality_prompt_reasonableness.en.txt",
+          "schema_path": "Seq/SepWideAgDnSq5/schema_reasonableness.en.json"
+        }
+      }
+    }
+  }
+}

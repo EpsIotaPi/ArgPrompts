@@ -1,0 +1,17 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the cogency of the author's argument?
+• 5 -- Most premises are believable and bear on the conclusion; taken together they are enough to support it.
+• 4 -- Between 5 and 3.
+• 3 -- Some premises are open to question, or bear only loosely on the conclusion; taken together they do not fully support it.
+• 2 -- Between 3 and 1.
+• 1 -- Most premises are open to question or do not bear on the conclusion, or no premise is offered at all; nothing supports the conclusion.
+Cogency: Consider the premises the author's argument rests on, and how those premises stand to the final conclusion. Are the premises it uses worthy of being believed? Does each of them count as a reason or evidence bearing on the conclusion the author draws? And taken together, do they give enough support to draw it?
+Cogency turns on the reasoning of the argument itself: even where it is plainly or clumsily put, and even where it does little for the discussion of the issue, it can still be cogent.
+
+Not every point named in the definition needs to be met for a high rating -- weigh the points that apply. Where a point cannot be judged from the text, do not let it count against the author.
+
+Respond with a JSON object only.

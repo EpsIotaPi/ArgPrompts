@@ -1,0 +1,20 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+Three quality dimensions are defined as follows.
+Cogency: Consider the premises the author's argument rests on, and how those premises stand to the final conclusion. Are the premises it uses worthy of being believed? Does each of them count as a reason or evidence bearing on the conclusion the author draws? And taken together, do they give enough support to draw it?
+Effectiveness: Consider how the rhetoric of the text works on the reader. Does the author use grammatically correct, clearly worded language? Is the wording suited to the issue and to this setting? Does the way it is written make the author seem worthy of trust? Are the issue, the arguments and the conclusion laid out in a sensible order? And does the text stir emotions that leave a reader, having finished it, more inclined to side with the author?
+Reasonableness: Consider how the text handles views other than the author's own. Would someone who holds a different position grant that these arguments belong in the discussion, and that they are put in a fair way? Does the text bring the opposing views forward and rebut them adequately? And does it help move the issue toward a resolution?
+
+How would you rate the effectiveness of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+
+Not every point named in the definition needs to be met for a high rating -- weigh the points that apply. Where a point cannot be judged from the text, do not let it count against the author.
+
+Respond with a JSON object only.

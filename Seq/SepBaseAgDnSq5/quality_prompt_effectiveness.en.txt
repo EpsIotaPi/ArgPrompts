@@ -1,0 +1,18 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+Effectiveness: Consider how the rhetoric of the text works on the reader. Does the author use grammatically correct, clearly worded language? Is the wording suited to the issue and to this setting? Does the way it is written make the author seem worthy of trust? Are the issue, the arguments and the conclusion laid out in a sensible order? And does the text stir emotions that leave a reader, having finished it, more inclined to side with the author?
+Effectiveness turns on how the writing works on the reader: even where you doubt its premises, and even where it is unfair to the opposing side, it can still be effective.
+
+Not every point named in the definition needs to be met for a high rating -- weigh the points that apply. Where a point cannot be judged from the text, do not let it count against the author.
+
+How would you rate the effectiveness of the author's argumentation?
+• 5 -- The writing is clear and suited to this setting, and it stirs feeling that leaves a reader more inclined to side with the author.
+• 4 -- Between 5 and 3.
+• 3 -- The writing holds together and gets the author's meaning across, but does little to win a reader over.
+• 2 -- Between 3 and 1.
+• 1 -- The writing is disordered and gets in the way of the author's meaning.
+
+Respond with a JSON object only.

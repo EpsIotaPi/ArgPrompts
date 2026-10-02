@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the clarity of the style of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Clarity: The style of an argumentation should be seen as clear if it uses gramatically correct and widely unambiguous language as well as if it avoids unnecessary complexity and deviation from the discussed issue. The used language should make it easy for you to understand without doubts what the author argues for and how.
+
+Respond with a JSON object only.

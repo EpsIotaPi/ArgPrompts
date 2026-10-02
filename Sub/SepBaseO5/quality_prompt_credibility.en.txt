@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the success of the author's argumentation in creating credibility?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Credibility: An argumentation should be seen as successful in creating credibility if it conveys arguments and other information in a way that makes the author worthy of credence, e.g., by indicating the honesty of the author or by revealing the author's knowledge or expertise regarding the discussed issue. It should be seen as not successful if rather the opposite holds. Decide in dubio pro reo, i.e., if you have no doubt about the author's credibility, then do not judge him or her to be not credible.
+
+Respond with a JSON object only.

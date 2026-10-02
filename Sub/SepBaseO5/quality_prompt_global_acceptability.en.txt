@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the global acceptability of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Global Acceptability: An argumentation should be seen as globally acceptable if everyone from the expected target audience would accept both the consideration of the stated arguments within the discussion of the given issue and the way they are stated. Notice that you may see an argumentation as globally acceptable even though the stated arguments do not persuade you of the author's stance.
+
+Respond with a JSON object only.

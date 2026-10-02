@@ -1,0 +1,187 @@
+{
+  "version": "1.0",
+  "prompts": {
+    "AQ_JotWideO3": {
+      "description": "Argument Quality Assessment: JotWideO3",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Main/quality_prompt_JotWideO3.en.txt",
+          "schema_path": "schema_Jot3.en.json"
+        }
+      }
+    },
+    "AQ_JotWideO5": {
+      "description": "Argument Quality Assessment: JotWideO5",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Main/quality_prompt_JotWideO5.en.txt",
+          "schema_path": "schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_JotWideA5": {
+      "description": "Argument Quality Assessment: JotWideA5",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Main/quality_prompt_JotWideA5.en.txt",
+          "schema_path": "schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_JotWideAg5": {
+      "description": "Argument Quality Assessment: JotWideAg5",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Main/quality_prompt_JotWideAg5.en.txt",
+          "schema_path": "schema_Jot5.en.json"
+        }
+      }
+    },
+    "AQ_JotWideAgDn5": {
+      "description": "Argument Quality Assessment: JotWideAgDn5",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "user_path": "Main/quality_prompt_JotWideAgDn5.en.txt",
+          "schema_path": "schema_Jot5.en.json"
+        }
+      }
+    },
+
+    "AQ_SepBaseO3": {
+      "description": "Argument Quality Assessment: SepBaseO3",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Main/SepBaseO3"
+        }
+      }
+    },
+    "AQ_SepBaseO5": {
+      "description": "Argument Quality Assessment: SepBaseO5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Main/SepBaseO5"
+        }
+      }
+    },
+    "AQ_SepBaseA5": {
+      "description": "Argument Quality Assessment: SepBaseA5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Main/SepBaseA5"
+        }
+      }
+    },
+    "AQ_SepBaseAg5": {
+      "description": "Argument Quality Assessment: SepBaseAg5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Main/SepBaseAg5"
+        }
+      }
+    },
+    "AQ_SepBaseAgDn5": {
+      "description": "Argument Quality Assessment: SepBaseAgDn5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Main/SepBaseAgDn5"
+        }
+      }
+    },
+
+    "AQ_SepWideO3": {
+      "description": "Argument Quality Assessment: SepWideO3",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Main/SepWideO3"
+        }
+      }
+    },
+    "AQ_SepWideO5": {
+      "description": "Argument Quality Assessment: SepWideO5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Main/SepWideO5"
+        }
+      }
+    },
+    "AQ_SepWideA5": {
+      "description": "Argument Quality Assessment: SepWideA5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Main/SepWideA5"
+        }
+      }
+    },
+    "AQ_SepWideAg5": {
+      "description": "Argument Quality Assessment: SepWideAg5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Main/SepWideAg5"
+        }
+      }
+    },
+    "AQ_SepWideAgDn5": {
+      "description": "Argument Quality Assessment: SepWideAgDn5",
+      "prompt_key_list": "high",
+      "variables": ["issue", "argument"],
+      "json_object": true,
+      "languages": {
+        "en": {
+          "system": "You are an annotator in an argumentation quality annotation study.",
+          "path": "Main/SepWideAgDn5"
+        }
+      }
+    }
+  }
+}

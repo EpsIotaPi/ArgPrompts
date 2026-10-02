@@ -1,0 +1,14 @@
+Please answer the following question for the given comment from an online debate forum on a given issue.
+
+Issue: {{issue}}
+Comment: {{argument}}
+
+How would you rate the appropriateness of the style of the author's argumentation?
+• 5 (Very high)
+• 4 (High)
+• 3 (Medium)
+• 2 (Low)
+• 1 (Very low)
+Appropriateness: The style of an argumentation should be seen as appropriate if the used language supports the creation of credibility and emotions as well as if it is proportional to the discussed issue. The choice of words and the grammatical complexity should, in your view, appear suitable for the discussed issue within the given setting (online debate forum on a given issue), matching with how credibility and emotions are created via the content of the argumentation.
+
+Respond with a JSON object only.
